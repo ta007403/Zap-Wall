@@ -8,4 +8,4 @@ python -m pip install websocket-client bolt11 colorama
 
 Need to change LNBITS_WS = "xxx" to be your LNbits websocket with you invoice API key
 
-Example : wss://NODE_URL/api/v1/ws/INVOICE_READ_KEY
+Example : LNBITS_WS = wss://NODE_URL/api/v1/ws/INVOICE_READ_KEY
