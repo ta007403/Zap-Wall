@@ -25,7 +25,8 @@ TOTAL_SAT = 0
 
 # ------------------------- CONFIG -------------------------------
 LNBITS_WS = "xxx"
-#For example LNBITS_WS = wss://NODE_URL/api/v1/ws/INVOICE_READ_KEY
+#For example LNBITS_WS = "wss://NODE_URL/api/v1/ws/INVOICE_READ_KEY"
+#Please input NODE_URL without https:// 
 
 RELAYS = [
     "wss://relay.damus.io",
@@ -251,4 +252,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
